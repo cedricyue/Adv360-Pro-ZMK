@@ -3,14 +3,21 @@ compatible = "zmk,behavior-macro";
 label = "macro_navigate_right";
 #binding-cells = <0>;
 bindings
-    = <&kp RA(RG(RIGHT_ARROW))>;
+    = <&kp RG(RA(RIGHT_ARROW))>;
 };
 macro_navigate_left: macro_navigate_left{
 compatible = "zmk,behavior-macro";
 label = "macro_navigate_left";
 #binding-cells = <0>;
 bindings
-    = <&kp RA(RG(LEFT_ARROW))>;
+    = <&kp RG(RA(LEFT_ARROW))>;
+};
+macro_vim_alternate: macro_vim_alternate{
+compatible = "zmk,behavior-macro";
+label = "macro_vim_alternate";
+#binding-cells = <0>;
+bindings
+    = <&kp LC(N6)>;
 };
 macro_mission_control: macro_mission_control{
 compatible = "zmk,behavior-macro";
