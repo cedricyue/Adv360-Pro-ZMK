@@ -3,14 +3,14 @@ compatible = "zmk,behavior-macro";
 label = "macro_navigate_right";
 #binding-cells = <0>;
 bindings
-    = <&kp RGUI(RA(RIGHT_ARROW))>;
+    = <&kp RA(RGUI(RIGHT_ARROW))>;
 };
 macro_navigate_left: macro_navigate_left{
 compatible = "zmk,behavior-macro";
 label = "macro_navigate_left";
 #binding-cells = <0>;
 bindings
-    = <&kp RGUI(RA(LEFT_ARROW))>;
+    = <&kp RA(RGUI(LEFT_ARROW))>;
 };
 macro_mission_control: macro_mission_control{
 compatible = "zmk,behavior-macro";
